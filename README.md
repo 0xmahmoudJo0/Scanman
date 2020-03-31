@@ -3,7 +3,7 @@ find :-Host IP, Operating System, Open Ports, Identified Protocols from pcap fil
 ## Useful links
 - [pcap file ](https://en.wikipedia.org/wiki/Pcap)
 - [open ports](https://en.wikipedia.org/wiki/Open_port)
-- [tshark](https://www.wireshark.org/docs/man-pages/tshark.html)
+- [wireshark](https://en.wikipedia.org/wiki/Wireshark)
 - [nmap](https://en.wikipedia.org/wiki/Nmap) 
 
 # Overview
