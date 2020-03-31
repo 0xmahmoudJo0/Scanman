@@ -1,10 +1,10 @@
 # SanMan
 find :-Host IP, Operating System, Open Ports, Identified Protocols from pcap file
 ##Useful links
-[pcap file ][https://en.wikipedia.org/wiki/Pcap]
-[open ports][https://en.wikipedia.org/wiki/Open_port]
-[tshark][https://www.wireshark.org/docs/man-pages/tshark.html]
-[nmap][https://en.wikipedia.org/wiki/Nmap] 
+[pcap file ](https://en.wikipedia.org/wiki/Pcap)
+[open ports](https://en.wikipedia.org/wiki/Open_port)
+[tshark](https://www.wireshark.org/docs/man-pages/tshark.html)
+[nmap](https://en.wikipedia.org/wiki/Nmap) 
 
 #Overview
 This tool is a simple way to get  
