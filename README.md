@@ -20,9 +20,9 @@ This tool is a simple way to get
 #Using
 
 To open
-`python3 ScanMan.py` 
-Enter pcap file name after `Enter The Pcap File Name:`
+- `python3 ScanMan.py` 
+- Enter pcap file name after `Enter The Pcap File Name:`
 
 
 ###You will have the results in those files :- 
-###"HOSTip.txt ,HOSTos.txt ,HOSTopenports.txt ,HOSTidenproto.txt"
+- "HOSTip.txt ,HOSTos.txt ,HOSTopenports.txt ,HOSTidenproto.txt"
