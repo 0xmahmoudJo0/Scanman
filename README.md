@@ -1,4 +1,4 @@
-# SanMan
+# ScanMan
 find :-Host IP, Operating System, Open Ports, Identified Protocols from pcap file
 ## Useful links
 - [pcap file ](https://en.wikipedia.org/wiki/Pcap)
