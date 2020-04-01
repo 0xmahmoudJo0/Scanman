@@ -25,7 +25,7 @@ This tool is a simple way to get
 # Using
 
 To open
-- `ScanMan.py` 
+- `python3 Scanman.py` 
 - Enter your pcap file name after `Enter The Pcap File Name:`
 
 
