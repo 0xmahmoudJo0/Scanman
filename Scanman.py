@@ -1,7 +1,4 @@
 #!/usr/bin/env python3
-try:
-    import subprocess
-import subprocess
 print ("  /      \                               /  \     /  |                      ")
 print (" /$$$$$$  |  _______   ______   _______  $$  \   /$$ |  ______   _______    ")
 print (" $$ \__$$/  /       | /      \ /       \ $$$  \ /$$$ | /      \ /       \   ")
@@ -12,7 +9,10 @@ print (" $$    $$/ $$       |$$    $$ |$$ |  $$ |$$ | $/  $$ |$$    $$ |$$ |  $$
 print ("  $$$$$$/   $$$$$$$/  $$$$$$$/ $$/   $$/ $$/      $$/  $$$$$$$/ $$/   $$/   ")
 print ("BY:MahmoudJOO")
 
-a = input ("Enter The Pcap Path:  ")
+import os,sys
+import subprocess
+
+a = input ("Enter The Pcap File Name:  ")
 
 
 
@@ -27,5 +27,3 @@ subprocess.run('nmap -T4  -p- --open  -iL HOSTip.txt >> HOSTopenports.txt', shel
 subprocess.run('nmap -T4  -sO -iL HOSTip.txt >> HOSTidenproto.txt', shell=True)
 
 print ("for result search for HOSTip.txt ,HOSTos.txt ,HOSTopenports.txt ,HOSTidenproto.txt" )
-except:
-    print("please install requirements first")
