@@ -11,7 +11,7 @@ print (" $$    $$/ $$       |$$    $$ |$$ |  $$ |$$ | $/  $$ |$$    $$ |$$ |  $$
 print ("  $$$$$$/   $$$$$$$/  $$$$$$$/ $$/   $$/ $$/      $$/  $$$$$$$/ $$/   $$/   ")
 print ("BY:MahmoudJOO")
 
-a = input ("Enter The Pcap File Name:  ")
+a = input ("Enter The Pcap Path:  ")
 
 
 
