@@ -1,8 +1,4 @@
 #!/usr/bin/env python3
-try :
-    import subprocess
-except :
-    subprocess.run('pip install subprocess.run')
 import subprocess
 print ("  /      \                               /  \     /  |                      ")
 print (" /$$$$$$  |  _______   ______   _______  $$  \   /$$ |  ______   _______    ")
