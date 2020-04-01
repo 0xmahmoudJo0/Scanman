@@ -12,7 +12,7 @@ print ("BY:MahmoudJOO")
 import os,sys
 import subprocess
 
-a = input ("Enter The Pcap File Name:  ")
+a = input ("Enter The Pcap Path:  ")
 
 
 
