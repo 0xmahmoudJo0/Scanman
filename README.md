@@ -13,6 +13,11 @@ This tool is a simple way to get
 3. `Open Ports` 
 4. `Identified Protocols`   from pcap file 
 
+# requirements
+1. `apt install tshark`
+2. `apt install nmap'
+3. `apt install python3.8`
+
 # Installing
 
 `$ git clone https://github.com/Mahmoud-joo/SanMan.git`
