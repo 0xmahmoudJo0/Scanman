@@ -15,7 +15,7 @@ This tool is a simple way to get
 
 # requirements
 1. `apt install tshark`
-2. `apt install nmap'
+2. `apt install nmap`
 3. `apt install python3.8`
 
 # Installing
