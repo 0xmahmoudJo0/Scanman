@@ -20,7 +20,7 @@ This tool is a simple way to get
 # Using
 
 To open
-- `python3 ScanMan.py` 
+- `ScanMan.py` 
 - Enter your pcap file name after `Enter The Pcap File Name:`
 
 
