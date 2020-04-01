@@ -1,6 +1,9 @@
 #!/usr/bin/env python3
+try :
+    import subprocess
+except :
+    subprocess.run('pip install subprocess.run')
 import subprocess
-subprocess.run('python3 /usr/requirements.py')
 print ("  /      \                               /  \     /  |                      ")
 print (" /$$$$$$  |  _______   ______   _______  $$  \   /$$ |  ______   _______    ")
 print (" $$ \__$$/  /       | /      \ /       \ $$$  \ /$$$ | /      \ /       \   ")
