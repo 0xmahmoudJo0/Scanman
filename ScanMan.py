@@ -1,4 +1,6 @@
 #!/usr/bin/env python3
+import subprocess
+subprocess.run('python3 /usr/requirements.py')
 print ("  /      \                               /  \     /  |                      ")
 print (" /$$$$$$  |  _______   ______   _______  $$  \   /$$ |  ______   _______    ")
 print (" $$ \__$$/  /       | /      \ /       \ $$$  \ /$$$ | /      \ /       \   ")
@@ -9,11 +11,6 @@ print (" $$    $$/ $$       |$$    $$ |$$ |  $$ |$$ | $/  $$ |$$    $$ |$$ |  $$
 print ("  $$$$$$/   $$$$$$$/  $$$$$$$/ $$/   $$/ $$/      $$/  $$$$$$$/ $$/   $$/   ")
 print ("BY:MahmoudJOO")
 
-import os,sys
-import subprocess
-import concurrent.futures
-import time
-import multiprocessing
 a = input ("Enter The Pcap File Name:  ")
 
 
