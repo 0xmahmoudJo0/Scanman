@@ -1,5 +1,5 @@
-import subprocess 
-subprocess.run('apt update')
-subprocess.run('apt install python3.8')
-subprocess.run('apt install tshark')
-subprocess.run('apt install nmap')
+sunprocess==pip3 install subprocess 
+updating==apt update
+python3==apt install python3
+tshark==apt install tshark
+nmap==apt install nmap
