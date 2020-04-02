@@ -22,8 +22,10 @@ print (" $$$$$$$$$$$$$$$$$$   PLEASE WAIT UNTIL SCAN FINISH :)    $$$$$$$$$$$$$$
 
 subprocess.run(f'tshark -T fields -e ip.src -r {a}>>SM1.txt ', shell=True)
 subprocess.run('cat -n SM1.txt | sort -uk2 | sort -nk1 | cut -f2->>HOSTip.txt', shell=True)
-subprocess.run('nmap -T4  -O -iL HOSTip.txt >> HOSTos.txt', shell=True)
-subprocess.run('nmap -T4  -p- --open  -iL HOSTip.txt >> HOSTopenports.txt', shell=True)
-subprocess.run('nmap -T4  -sO -iL HOSTip.txt >> HOSTidenproto.txt', shell=True)
+a = input ("Enter The Pcap file:  ")
 
-print ("for result search for HOSTip.txt ,HOSTos.txt ,HOSTopenports.txt ,HOSTidenproto.txt" )
+subprocess.run(f'tshark -T fields -e ip.src -r {a}>>SM1.txt ', shell=True)
+subprocess.run('cat -n SM1.txt | sort -uk2 | sort -nk1 | cut -f2->>HOSTip.txt', shell=True)
+subprocess.run('nmap  -T4 -sO -iL HOSTip.txt -oG - && nmap -T4 -A -p- --open -iL HOSTip.txt -oG ->> RESULTS.txt' , shell=True )
+print ("the ip hosts in HOSTip.txt   ")
+print ("the output is in RESULTS.txt ")
