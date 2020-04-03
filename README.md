@@ -28,6 +28,3 @@ To open
 - `python3 Scanman.py` 
 - Enter your pcap file name after `Enter The Pcap File Name:`
 
-
-### You will have the results in those files :- 
-- "HOSTip.txt ,HOSTos.txt ,HOSTopenports.txt ,HOSTidenproto.txt"
