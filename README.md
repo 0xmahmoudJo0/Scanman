@@ -1,5 +1,5 @@
 # ScanMan
-find :-Host IP, Operating System, Open Ports, Identified Protocols from pcap file
+Reading pcap file and find Host IP, Operating System, Open Ports, Identified Protocols using Nmap
 ## Useful links
 - [pcap file ](https://en.wikipedia.org/wiki/Pcap)
 - [open ports](https://en.wikipedia.org/wiki/Open_port)
