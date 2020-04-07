@@ -23,8 +23,7 @@ subprocess.run('nmap -sn -iL SM2.txt -oG - | grep "Up" | grep -v "scanned" >SM3.
 subprocess.run('grep -o "[0-9][^ ].[0-9].[0-9]\.[0-9][^ ]*" SM3.txt > HOSTip.txt' , shell=True)
 
 subprocess.run('nmap  -T5 -sO -iL HOSTip.txt -oG - | grep -v "Nmap" > RESULTS.txt ' , shell=True )
-subprocess.run('nmap -p- -iL HOSTip.txt -oG - | grep "open"  >> RESULTS.txt' , shell=True)
-subprocess.run('nmap -O -iL HOSTip.txt | grep "Aggressive OS guesses" | grep -v "gnored" >> RESULTS.txt' , shell=True)
+subprocess.run('nmap -p- -iL HOSTip.txt -oG - | grep "open"  >> RESULTS.txt && nmap -O -iL HOSTip.txt | grep "Aggressive OS guesses" | grep -v "gnored" >> RESULTS.txt' , shell=True)
 
 print ("the ip hosts in HOSTip.txt   ")
 print ("the output is in RESULTS.txt ")
