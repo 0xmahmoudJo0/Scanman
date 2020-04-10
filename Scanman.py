@@ -45,7 +45,7 @@ subprocess.run('echo "\033[1;93mOS And Open Ports For Each HOST \033[m"  >>RESUL
 subprocess.run('echo "\033[1;91m---------------------------------\033[m" >> RESULTS.txt ' , shell=True)
 subprocess.run('echo   >> RESULTS.txt' , shell=True)
 
-subprocess.run('nmap -O -T4 --open -iL HOSTip.txt | grep -Ev "shown|Warning|detection|hops|done|Starting|Host|closed|Runing|CPE" | cut -c 1-60 >> RESULTS.txt ' , shell=True)    
+subprocess.run('nmap -O -T4 --open -iL HOSTip.txt | grep -Ev "shown|Warning|detection|hops|done|Starting|Host|closed|Runing|CPE" | cut -c 1-70 >> RESULTS.txt ' , shell=True)    
 
 
 print ("SCAN OS & Open Ports DONE :        " '\n')
