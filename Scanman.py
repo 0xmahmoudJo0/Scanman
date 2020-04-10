@@ -31,8 +31,7 @@ subprocess.run('echo "\033[1;93mIdentified Protocol For Each HOST\033[m" >>RESUL
 subprocess.run('echo "\033[1;91m-----------------------------------\033[m" >> RESULTS.txt ' , shell=True)
 subprocess.run('echo   >> RESULTS.txt' , shell=True)
 
-subprocess.run('nmap  -T5 -sO --open -iL HOSTip.txt -oG - | grep -Ev "Nmap|Status" >> RESULTS.txt ' , shell=True )
-
+subprocess.run('nmap  -T5 -sO --open -iL HOSTip.txt | grep -Ev "Not|is|Status|done|Starting" >> RESULTS.txt ' , shell=True )
 subprocess.run('echo   >> RESULTS.txt' , shell=True)
 
 subprocess.run('echo  "\033[1;32m==============================================================================================\033[m" >> RESULTS.txt ' , shell=True)
