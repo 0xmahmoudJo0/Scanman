@@ -35,7 +35,7 @@ subprocess.run('nmap  -T5 -sO --open -iL HOSTip.txt -oG - | grep -Ev "Nmap|Statu
 
 subprocess.run('echo   >> RESULTS.txt' , shell=True)
 
-subprocess.run('echo  "\033[1;32m=======================================\033[m" >> RESULTS.txt ' , shell=True)
+subprocess.run('echo  "\033[1;32m==============================================================================================\033[m" >> RESULTS.txt ' , shell=True)
 
 subprocess.run('echo   >> RESULTS.txt' , shell=True)
 
